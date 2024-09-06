@@ -8,10 +8,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#ADD8E6"
         android:orientation="vertical"
-        android:padding="50dp"
-        android:background="#ADD8E6">
+        android:padding="50dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -20,15 +20,23 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Thursday"/>
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Thu" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
                 android:adjustViewBounds="true"
-                android:src="@drawable/sun"/>
+                android:importantForAccessibility="no"
+                android:src="@drawable/sun" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="50dp"
+                android:text="Sunny day" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -37,49 +45,73 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Friday"/>
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Fri" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
                 android:adjustViewBounds="true"
-                android:src="@drawable/cloudy"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Saturday"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:src="@drawable/rain"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sunday"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
                 android:src="@drawable/sun_cloud" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="50dp"
+                android:text="Sun cloud day" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Sat" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/storm" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="50dp"
+                android:text="Storm day" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Sun" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:importantForAccessibility="no"
+                android:src="@drawable/cloudy" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="50dp"
+                android:text="Cloudy day" />
+
         </LinearLayout>
 
     </LinearLayout>
