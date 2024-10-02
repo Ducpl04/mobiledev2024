@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="Hanoi">Hà Nội</string>
+    <string name="Sunny">Nắng</string>
+    <string name="Cloudy">"Mây "</string>
+    <string name="Sunny_and_Cloudy">Nắng và có mây</string>
+    <string name="Snowflake">Tuyết</string>
+    <string name="Rain">Mưa</string>
+    <string name="Thu">Thứ 5</string>
+    <string name="Fri">Thứ 6</string>
+    <string name="Sat">Thứ 7</string>
+    <string name="Sun">"Chủ nhật "</string>
+    <string name="Storm">Bão</string>
+</resources>
